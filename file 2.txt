@@ -1,1 +1,7 @@
 This is the second file
+
+git log
+git status
+git add .
+git add filename.txt
+git commit -m "comment here"
