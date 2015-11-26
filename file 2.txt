@@ -7,3 +7,6 @@ git status
 git add .
 git add filename.txt
 git commit -m "comment here"
+git diff                       (working vs. repository)
+git diff --staged              (staging vs. repository)
+
