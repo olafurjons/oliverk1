@@ -14,7 +14,7 @@ git commit -m "comment here"
 git diff                          (working vs. repository)
 git diff --staged                 (staging vs. repository)
 
-git rm filename.txt
+git rm filename.txt               (to delete a file)
 
 git mv oldName.txt newName.txt    (to rename files)
 
