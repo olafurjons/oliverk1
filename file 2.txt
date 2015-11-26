@@ -1,5 +1,7 @@
 This is the second file
 
+Common Comands!!!
+
 git log
 git status
 git add .
