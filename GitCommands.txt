@@ -1,4 +1,4 @@
-This is the second file
+GitHub
 
 Common Comands!!!!
 
@@ -7,12 +7,12 @@ git log                           (show the commit log ... use -3 only three lat
 
 git status                        (status of your working folder / local)
 
-git init                          (makes current folder a repo)
+1) git init                       (makes current folder a repo)
 
-git add .                         (add from working to staging)
+2) git add .                      (add from working to staging)
 git add filename.txt
 
-git commit -m "comment here"      (use -am with "a" to skip staging and straight to repo)
+3) git commit -m "comment here"   (use -am with "a" to skip staging and straight to repo)
 
 git diff                          (working vs. repository)
 git diff --staged                 (staging vs. repository)
@@ -26,6 +26,8 @@ git checkout 01e7dba -- name.txt  (get an old version from repo ... use log to g
 
 git reset HEAD filename.txt       (take file back from staging area (middle) and put it in working copy)
 
-git remote add origin https://github.com/olafurjons/oliverk1.git
-git push -u origin master
+git remote add origin https://github.com/olafurjons/oliverk1.git     ("origin" is just a nick name)
+git remote                        (to see your remotes)
+
+git push -u origin master         (add files to github server ... to your remote name "origin")
 
