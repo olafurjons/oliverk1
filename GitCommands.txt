@@ -1,15 +1,18 @@
 This is the second file
 
-Common Comands!!!
+Common Comands!!!!
+
 
 git log
 
-git status
+git status                        (status of your working folder / local)
 
-git add .
+git init                          (makes current folder a repo)
+
+git add .                         (add from working to staging)
 git add filename.txt
 
-git commit -m "comment here"
+git commit -m "comment here"      (use -am with "a" to skip staging and straight to repo)
 
 git diff                          (working vs. repository)
 git diff --staged                 (staging vs. repository)
@@ -18,7 +21,9 @@ git rm filename.txt               (to delete a file)
 
 git mv oldName.txt newName.txt    (to rename files)
 
+git checkout -- filename.txt      (overwrite a working copy with a file from repo "like undo")
 
+git reset HEAD filename.txt       (take file back from staging area (middle) and put it in working copy)
 
 git remote add origin https://github.com/olafurjons/oliverk1.git
 git push -u origin master
