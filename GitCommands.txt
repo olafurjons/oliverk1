@@ -22,6 +22,7 @@ git rm filename.txt               (to delete a file)
 git mv oldName.txt newName.txt    (to rename files)
 
 git checkout -- filename.txt      (overwrite a working copy with a file from repo "like undo")
+git checkout 01e7dba -- name.txt  (get an old version from repo ... use log to get ref number)
 
 git reset HEAD filename.txt       (take file back from staging area (middle) and put it in working copy)
 
