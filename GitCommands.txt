@@ -3,7 +3,7 @@ This is the second file
 Common Comands!!!!
 
 
-git log
+git log                           (show the commit log ... use -3 only three latest)
 
 git status                        (status of your working folder / local)
 
