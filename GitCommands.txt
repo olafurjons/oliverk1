@@ -18,3 +18,8 @@ git rm filename.txt               (to delete a file)
 
 git mv oldName.txt newName.txt    (to rename files)
 
+
+
+git remote add origin https://github.com/olafurjons/oliverk1.git
+git push -u origin master
+
